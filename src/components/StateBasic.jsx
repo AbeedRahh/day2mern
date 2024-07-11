@@ -16,7 +16,7 @@ const StateBasic = () => {
 
    
   return (
-    <div style={{textalign:'center',marginTop:"5%"}} >
+    <div style={{textalign:'center',marginTop:"20%",marginLeft:"20%"}} >
        
       
       <Typography variant='h3'>hello {name} </Typography>

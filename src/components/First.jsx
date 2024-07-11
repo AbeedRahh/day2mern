@@ -15,11 +15,11 @@ const First = () => {
       <Typography variant='h5'>login page</Typography>
       <TextField variant='outlined' label="username"/>
       <TextField  label="Outlined" variant="outlined" />&nbsp;
-      <TextField id="filled-basic" label="Filled" variant="filled" />&nbsp;
-      <TextField id="standard-basic" label="Standard" variant="standard" />&nbsp;
+      <TextField  label="Fille" variant="filled" />&nbsp;
+      <TextField  label="Standar" variant="standard" />&nbsp;
       <br /><br />
-      <Button variant="text">Text</Button>
-<br /><br /><Button variant="contained">Contained</Button>
+      <Button variant="text">Tex</Button>
+<br /><br /><Button variant="contained">Contained=</Button>
 {/* &nbsp to create a small gap between botton  */}
 <br /><br />
 

@@ -16,13 +16,15 @@ const Navbar = () => {
             <Link to={"/"}>Login</Link></Button>
             <Button style={{textDecoration:"none",color:"white"}}>
             <Link to={"/reg"}>Registration</Link></Button>
-            <Button style={{textDecoration:"none",color:"white"}}>
-            <Link to={"/tab"}>Table</Link></Button>
+            <Button >
+            <Link to={"/tab"}style={{color:"white"}}>Table</Link></Button>
             <Button style={{textDecoration:"none",color:"white"}}>
             <Link to={"/s"}>State</Link></Button>
             <Button style={{textDecoration:"none",color:"white"}}>
             <Link to={"/c"}>count</Link></Button>
 
+            <Button style={{textDecoration:"none",color:"white"}}>
+            <Link to={"/h"}>Welcome</Link></Button>
         </Toolbar>
       </AppBar>
     </Box>
